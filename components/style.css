@@ -1,0 +1,49 @@
+/* slider btn */
+.btn-slide {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.btn-slide i,
+.btn-slide span {
+  position: relative;
+  height: 40px;
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffff;
+  background: var(--main);
+  border-radius: 0 35px 35px 0;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.btn-slide span a i {
+  padding: 0 10px;
+}
+
+.btn-slide span a:hover i {
+  background: var(--main);
+}
+
+.btn-slide span {
+  padding-left: 0;
+  left: -100%;
+  z-index: 1;
+}
+
+.card:hover .btn-slide i {
+  border-radius: 0;
+}
+
+.card:hover .btn-slide span {
+  left: 0;
+}
+
+.btn-slide:hover i,
+.btn-slide:hover span {
+  background: var(--main);
+}

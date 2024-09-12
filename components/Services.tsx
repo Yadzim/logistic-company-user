@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import "./style.css";
 
 const Services: React.FC = (): JSX.Element => {
 
@@ -19,8 +20,9 @@ const Services: React.FC = (): JSX.Element => {
               <div className="flex flex-col gap-4 my-6">
                 <h2 className="text-2xl font-bold ">Air Freight</h2>
                 <p className='text-info'>If a dog chews shoes whose shoes does he choose? Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div className="card-actions">
-                  <button className="py-1 px-4 rounded-r-full bg-main text-white transition-transform w-max hover:w-36">Lore More</button>
+                <div className="card-actions-">
+                  <button className="py-1 px-4 rounded-r-full bg-main text-white transition-transform w-max hover:w-36"><i className="fa fa-arrow-right" />&nbsp; Lore More</button>
+                  {/* <div className="btn-slider"><i className="fa fa-arrow-right" /><span>Lore More</span></div> */}
                 </div>
               </div>
             </div>

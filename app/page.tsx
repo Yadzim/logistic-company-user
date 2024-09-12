@@ -1,4 +1,4 @@
-import { Services } from "@/components";
+import { Features, Services } from "@/components";
 
 export default function Home() {
   return (
@@ -46,6 +46,7 @@ export default function Home() {
       </div>
 
       <Services />
+      <Features />
     </div>
   );
 }
