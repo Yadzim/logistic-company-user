@@ -16,7 +16,7 @@ const SLIDE_ELEMENT = <div className="card bg-white rounded-lg p-4 shadow-md- my
   </div>
 </div>
 const OPTIONS = { loop: true }
-const SLIDES = [...Array(5)].map((_, i) => SLIDE_ELEMENT)
+const SLIDES = [...Array(5)].map(() => SLIDE_ELEMENT)
 
 export default function Home() {
   return (

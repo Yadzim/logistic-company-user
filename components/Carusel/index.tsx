@@ -13,7 +13,7 @@ import {
 import "./styles.css"
 
 type PropType = {
-  slides: any[]
+  slides: JSX.Element[]
   options?: EmblaOptionsType,
 }
 

@@ -4,7 +4,7 @@ type PageHeaderPropType = {
   title: string
   description: string
   tag: string
-  img?: any
+  img?: { src: string }
 }
 
 
