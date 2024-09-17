@@ -5,17 +5,17 @@ import "./style.css";
 const Services: React.FC = (): JSX.Element => {
 
   return (
-    <div className="container py-24">
+    <div className="container py-8 md:py-24">
       <div className="text-center">
-        <h2 className="text-5xl font-bold">Our <span className="text-main">Services</span></h2>
-        <p className="text-2xl text-info mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, officia.</p>
+        <h2 className="text-3xl md:text-5xl font-bold">Our <span className="text-main">Services</span></h2>
+        <p className="text-lg md:text-2xl text-info mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, officia.</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-12 mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 mt-12 max-md:px-3">
 
         {
           [...Array(6)].map((_, i) => (
-            <div className="card" key={i}>
+            <div className="card max-md:p-2" key={i}>
               <figure><Image className='rounded w-full' src="https://startupsmagazine.co.uk/sites/default/files/2022-07/AdobeStock_453942999.jpg" alt="Shoes" width={400} height={400} /></figure>
               <div className="flex flex-col gap-4 my-6">
                 <h2 className="text-2xl font-bold ">Air Freight</h2>

@@ -28,7 +28,7 @@ const Header: React.FC = (): JSX.Element => {
               <li><Link className='nav-link' href="/contact">Contact</Link></li>
               <li><Link className='nav-link' href="/blog">Blog</Link></li>
             </ul>
-            <button className="bg-main py-3 px-6 rounded-lg text-white">Get Started</button>
+            <button className="bg-main py-2 px-6 rounded-lg hover:bg-main/90 text-white">Get Started</button>
           </div>
         </div>
       </div>
