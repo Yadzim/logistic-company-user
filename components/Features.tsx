@@ -14,7 +14,7 @@ const Features: React.FC = (): JSX.Element => {
 
         <div className="flex flex-col gap-6 md:gap-12">
 
-          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6">
+          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6 animate__animated animate__fadeInLeft">
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300"></div>
             <div className="text-lg">
               <p className="font-bold mb-2">Worldwide Service</p>
@@ -22,7 +22,7 @@ const Features: React.FC = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6">
+          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6 animate__animated animate__fadeInLeft">
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300"></div>
             <div className="text-lg ">
               <p className="font-bold mb-2">On Time Delivery</p>
@@ -30,7 +30,7 @@ const Features: React.FC = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6">
+          <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6 animate__animated animate__fadeInLeft">
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300"></div>
             <div className="text-lg ">
               <p className="font-bold mb-2">24/7 Telephone Support</p>

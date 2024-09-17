@@ -1,6 +1,6 @@
 import { Contact, EmblaCarousel, Features, Services } from "@/components";
 
-const SLIDE_ELEMENT = <div className="bg-white rounded-lg p-4 shadow-md- my-2">
+const SLIDE_ELEMENT = <div className="card bg-white rounded-lg p-4 shadow-md- my-10">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum laboriosam mollitia temporibus ipsa provident quaerat explicabo officiis eos eveniet? Eveniet quae voluptatum suscipit.</p>
 
   <div className="flex-between gap-4 mt-4">
@@ -66,7 +66,7 @@ export default function Home() {
 
       <Contact />
 
-      <div className="bg-[#F4F4F4]">
+      <div className="bg-[#F4F4F4]-">
         <div className="container py-8 md:py-24 ">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">Our <span className="text-main">Clients</span> Say</h2>

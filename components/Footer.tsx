@@ -84,13 +84,13 @@ const Footer: React.FC = (): JSX.Element => {
         <div className="mx-6 py-10 text-center md:text-left container">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="md:me-6">
-              <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+              <div className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 <h1 className="text-3xl font-signature text-main">Logo</h1>
                 {/* <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
 
                 </span> */}
                 {/* TW Elements */}
-              </h6>
+              </div>
               <p>
                 Here you can use rows and columns to organize your footer
                 content. Lorem ipsum dolor sit amet, consectetur adipisicing
