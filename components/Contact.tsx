@@ -20,14 +20,14 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
 
               <div className="w-full md:w-1/2 p-2">
                 <div className="relative">
-                  <input type="text" id="name" name="name" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Name" />
-                  <label htmlFor="name" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Name</label>
+                  <input type="text" id="name" name="name" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Full name" />
+                  <label htmlFor="name" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Full name</label>
                 </div>
               </div>
               <div className="w-full md:w-1/2 p-2 max-md:mt-4">
                 <div className="relative">
-                  <input type="email" id="email" name="email" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Email" />
-                  <label htmlFor="email" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Email</label>
+                  <input type="phone" id="phone" name="phone" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Phone" />
+                  <label htmlFor="phone" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Phone</label>
                 </div>
               </div>
               <div className="mt-4 w-full p-2">
@@ -37,7 +37,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
                 </div>
               </div>
               <div className="w-full p-2">
-                <button className="max-md:w-full mx-auto flex rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none">Button</button>
+                <button className="max-md:w-full mx-auto flex-center rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none text-center">Button</button>
               </div>
 
 

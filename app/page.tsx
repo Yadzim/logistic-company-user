@@ -29,29 +29,32 @@ export default function Home() {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae
             et a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="py-3 px-12 rounded-full border border-main text-main hover:text-white hover:bg-main transition-colors">Contact Us</button>
         </div>
       </div>
 
       <div className="bg-gray-200 py-6 md:py-12">
-        <div className="container flex-center max-md:flex-wrap gap-4 md:gap-24">
+        <div className="container flex-center max-md:flex-wrap gap-4 md:gap-24 max-md:text-center">
 
-          <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]">
-            <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div>
+          <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)] animate__animated animate__fadeInBottomLeft">
+            {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
+            <i className="fa fa-headset text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Call Us Anytime</span>
               <p className="text-md md:text-2xl font-bold md:mt-2">+ (123) 1800-567-8990</p>
             </div>
           </div>
-          <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]">
-            <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div>
+          <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)] animate__animated animate__fadeInUp">
+            {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
+            <i className="far fa-clock text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Sunday CLOSED</span>
               <p className="text-md md:text-2xl font-bold md:mt-2">Mon - Sat 8.00 - 18.00</p>
             </div>
           </div>
-          <div className="d-f gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]-">
-            <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div>
+          <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]- animate__animated animate__fadeInBottomRight">
+            {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
+            <i className="fa fa-map-marked-alt text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Columbia, SC 29201</span>
               <p className="text-md md:text-2xl font-bold md:mt-2">USA, New York - 10620</p>
@@ -61,7 +64,8 @@ export default function Home() {
         </div>
       </div>
 
-      <Services />
+      <Services count={3} />
+
       <Features />
 
       <Contact />

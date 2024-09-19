@@ -10,12 +10,12 @@ const ContactPage: React.FC = (): JSX.Element => {
     <div className="bg-blue">
       <PageHeader title='Contact Us' description='We use an agile approach to test assumptions and connect with the needs of your audience early and often.' tag='Contact' img={img} />
 
-      <div className="py-12">
+      <div className="py-12 max-md:px-4">
         <div className="container grid md:grid-cols-2 gap-12">
           <div className="grid md:grid-cols-1 gap-6">
 
             <div className="d-f gap-6 animate__animated animate__fadeInLeft text-white border border-[#1F2937] rounded-2xl p-4">
-              <div className="w-20 h-20 rounded-2xl bg-[#1F2937]"></div>
+              <div className="w-20 h-20 rounded-2xl bg-[#1F2937] flex-center"><i className="fa fa-envelope text-4xl opacity-50"></i></div>
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Email us:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
@@ -24,7 +24,7 @@ const ContactPage: React.FC = (): JSX.Element => {
             </div>
 
             <div className="d-f gap-6 animate__animated animate__fadeInLeft text-white border border-[#1F2937] rounded-2xl p-4">
-              <div className="w-20 h-20 rounded-2xl bg-[#1F2937]"></div>
+              <div className="w-20 h-20 rounded-2xl bg-[#1F2937] flex-center"><i className="fa fa-phone-alt text-4xl opacity-50"></i></div>
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Call us:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
@@ -33,7 +33,7 @@ const ContactPage: React.FC = (): JSX.Element => {
             </div>
 
             {/* <div className="d-f gap-6 animate__animated animate__fadeInLeft text-white border border-[#1F2937] rounded-2xl p-4">
-              <div className="w-20 h-20 rounded-2xl bg-[#1F2937]"></div>
+              <div className="w-20 h-20 rounded-2xl bg-[#1F2937] flex-center"><i className="fa fa-envelope text-4xl opacity-50"></i></div>
               <div className="text-lg">
                 <h6 className="font-bold text-lg mb-2">Address:</h6>
                 <span className="text-info text-sm" >SILVER LAKE, United States 1941 Late Avenue Zip Code/Postal code: 03875</span>
@@ -41,7 +41,7 @@ const ContactPage: React.FC = (): JSX.Element => {
             </div> */}
 
             <div className="d-f gap-6 animate__animated animate__fadeInLeft text-white border border-[#1F2937] rounded-2xl p-4">
-              <div className="w-20 h-20 rounded-2xl bg-[#1F2937]"></div>
+              <div className="w-20 h-20 rounded-2xl bg-[#1F2937] flex-center"><i className="fa fa-building text-4xl opacity-50"></i></div>
               <div className="text-lg">
                 <h6 className="font-bold text-lg mb-2">Company information:</h6>
                 <span className="text-info text-sm" >Flowbite LLC Tax id: USXXXXXX</span>

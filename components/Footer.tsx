@@ -1,5 +1,8 @@
+"use client"
+
 import Link from 'next/link';
 import React from 'react';
+import { links } from './Navbar';
 
 const Footer: React.FC = (): JSX.Element => {
 
@@ -82,10 +85,11 @@ const Footer: React.FC = (): JSX.Element => {
         </div>
 
         <div className="mx-6 py-10 text-center md:text-left container">
-          <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div className="md:me-6">
+          <div className="grid-1 grid gap-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-8">
+
+            <div className="md:me-6 col-span-2">
               <div className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-                <h1 className="text-3xl font-signature text-main">Logo</h1>
+                <h1 className="text-3xl font-signature text-main uppercase"><i className="fa fa-shipping-fast"></i> logistic</h1>
                 {/* <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
 
                 </span> */}
@@ -97,24 +101,21 @@ const Footer: React.FC = (): JSX.Element => {
                 elit.
               </p>
             </div>
-            <div>
+
+            <div className='col-span-1 md:col-span-2'>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Menus
               </h6>
-              <p className="mb-4">
-                <Link href="/">Home</Link>
-              </p>
-              <p className="mb-4">
-                <Link href="/about">About</Link>
-              </p>
-              <p className="mb-4">
-                <Link href="/contact">Contact</Link>
-              </p>
-              <p>
-                <Link href="/blog">Blog</Link>
-              </p>
+              {
+                links?.map((link, i) => (
+                  <p key={i} className="mb-4">
+                    <Link href={link.link}>{link.title}</Link>
+                  </p>
+                ))
+              }
             </div>
-            <div>
+
+            <div className='col-span-1 md:col-span-2'>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Our Services
               </h6>
@@ -131,7 +132,8 @@ const Footer: React.FC = (): JSX.Element => {
                 <a href="#!">Logistic Solutions</a>
               </p>
             </div>
-            <div>
+
+            <div className='col-span-2'>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
@@ -192,6 +194,7 @@ const Footer: React.FC = (): JSX.Element => {
                 + 01 234 567 89
               </p>
             </div>
+
           </div>
         </div>
 

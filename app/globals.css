@@ -21,7 +21,11 @@
 body {
   /* color: var(--foreground); */
   /* background: var(--background); */
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @layer utilities {
@@ -33,9 +37,19 @@ body {
     @apply hover:underline hover:underline-offset-4 hover:text-main transition-colors;
   }
 
+  .nav-link.active {
+    @apply text-main underline underline-offset-4;
+  }
+
   .hero {
     @apply h-screen;
     background-image: url("../assets/images/hero.jpg");
+  }
+
+  @media screen and (max-width: 640px) {
+    .hero {
+      background-position: center;
+    }
   }
 
   .footer {
@@ -46,6 +60,13 @@ body {
   .card {
     @apply bg-white rounded-lg p-6;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+  }
+
+  .img-box img {
+    transition: 0.25s linear;
+  }
+  .img-box:hover img {
+    scale: 1.1;
   }
 }
 
