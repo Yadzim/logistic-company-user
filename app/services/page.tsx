@@ -1,6 +1,6 @@
 
 import { PageHeader, Services } from '@/components';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import logistic from '@/assets/images/services-bg.png'
 
 const ServicesPage: React.FC = (): JSX.Element => {
