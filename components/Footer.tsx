@@ -24,7 +24,7 @@ const Footer: React.FC = (): JSX.Element => {
         <div className=" border-b border-info p-6 py-4">
           <div className="container flex items-center justify-center lg:justify-between">
             <div className="me-12 hidden lg:block">
-              <span>Ijtimoiy tarmoqlarda biz bilan bog'laning:</span>
+              <span>Ijtimoiy tarmoqlarda biz bilan bog’laning:</span>
             </div>
             <div className="flex-center gap-6">
               <a target='_blank' href="https://facebook.com/Ema_logistics_uz" className="[&>svg]:h-4 [&>svg]:w-4">
@@ -104,7 +104,7 @@ const Footer: React.FC = (): JSX.Element => {
 
             <div className='col-span-2'>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Bog'lanish
+                Bog’lanish
               </h6>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">

@@ -1,15 +1,13 @@
-import Image from 'next/image';
 import React from 'react';
-import "./style.css";
-
+import Image from 'next/image';
 import shipImage from '../assets/images/services-image/ship.png';
 import furaImage from '../assets/images/services-image/fura.png';
 import ship2Image from '../assets/images/services-image/ship2.png';
 import logisticImage from '../assets/images/logistic.png';
 import storeImage from '../assets/images/services-image/store.png';
 import plane from '../assets/images/services-bg.png';
+import "./style.css";
 
-const images = [plane, shipImage, furaImage, ship2Image, logisticImage, storeImage, logisticImage];
 
 const services = [
   {

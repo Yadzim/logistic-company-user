@@ -20,7 +20,7 @@ const AboutPage: React.FC = (): JSX.Element => {
           <div className="">
 
             <h6 className='text-main font-bold text-lg md:text-xl' >Biz haqimizda</h6>
-            <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2018- yildan buyon xizmat ko'rsatib kelmoqda</h2>
+            <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2018- yildan buyon xizmat ko’rsatib kelmoqda</h2>
             <p>&nbsp;&nbsp;&nbsp; EMAEXINTERNATIONAL LOGISTICS jamoasi 6 yil davomida, XITOY, ROSSIYA,
               TURKIYA va O’ZBEKISTON bozorlarida faoliyat olib borib kelyabdi. Kompaniyamiz
               asosiy ofisi XitoyXalq Respublikasi, Guanzhou shahrida joylashgan bo’lib, O’zbekistonlik
@@ -53,12 +53,12 @@ const AboutPage: React.FC = (): JSX.Element => {
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
             <h3 className="text-main text-5xl font-bold mb-3" >54</h3>
-            <p className='text-lg font-semibold' >Jamoa a'zolari</p>
+            <p className='text-lg font-semibold' >Jamoa a’zolari</p>
           </div>
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
             <h3 className="text-main text-5xl font-bold mb-3" >1435</h3>
-            <p className='text-lg font-semibold' >Dunyo bo'ylab xaridorlar</p>
+            <p className='text-lg font-semibold' >Dunyo bo’ylab xaridorlar</p>
           </div>
 
         </div>

@@ -9,7 +9,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
         <div className="container mx-auto px-5 py-24">
 
           {isFull ? <div className="mb-12 flex w-full flex-col text-center">
-            <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Biz bilan <span className="text-main">bog'lanish</span></h1>
+            <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Biz bilan <span className="text-main">bog’lanish</span></h1>
             <p className="mx-auto text-base leading-relaxed lg:w-2/3">Feel free to reach out to us! Whether you have a question,
               feedback, or a collaboration proposal, we`d love to hear from you.
             </p>
@@ -37,7 +37,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
                 </div>
               </div>
               <div className="w-full p-2 flex-center">
-                <button className="max-md:w-full flex-center rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none text-center">Jo'natish</button>
+                <button className="max-md:w-full flex-center rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none text-center">Jo’natish</button>
               </div>
 
 
