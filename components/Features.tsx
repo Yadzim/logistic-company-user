@@ -9,7 +9,7 @@ const Features: React.FC = (): JSX.Element => {
       <div className="">
         <div className="max-md:text-center">
           <h6 className='text-main font-bold text-lg md:text-xl' >Bizning avzalliklar</h6>
-          <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2018- yildan buyon xizmat ko'rsatib kelmoqda</h2>
+          <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2018- yildan buyon xizmat ko’rsatib kelmoqda</h2>
         </div>
 
         <div className="flex flex-col gap-6 md:gap-12">
@@ -17,7 +17,7 @@ const Features: React.FC = (): JSX.Element => {
           <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6 animate__animated animate__fadeInLeft">
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300- flex-center"><i className="fa fa-globe opacity-50 text-4xl md:text-5xl"></i></div>
             <div className="text-lg">
-              <p className="font-bold mb-2">Dunyo bo'ylab xizmatlar</p>
+              <p className="font-bold mb-2">Dunyo bo’ylab xizmatlar</p>
               <span className="text-info max-md:text-sm" >Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</span>
             </div>
           </div>

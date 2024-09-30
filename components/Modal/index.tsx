@@ -9,7 +9,7 @@ const EModal: React.FC<TypeModalProps> = ({ open, children, header, footer = und
 
   useEffect(() => {
 
-    if (modalRef.current) {
+    if (modalRef?.current) {
 
       if (open) {
         modalRef.current.focus()
@@ -20,7 +20,7 @@ const EModal: React.FC<TypeModalProps> = ({ open, children, header, footer = und
 
   useEffect(() => {
 
-    if (modalRef.current && onClose) {
+    if (modalRef?.current && onClose) {
       modalRef.current.onblur = () => {
         onClose()
       }
@@ -28,7 +28,7 @@ const EModal: React.FC<TypeModalProps> = ({ open, children, header, footer = und
 
     return () => {
 
-      if (modalRef.current && onClose) {
+      if (modalRef?.current && onClose) {
         modalRef.current.onblur = null
       }
     }
