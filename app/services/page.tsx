@@ -7,7 +7,7 @@ const ServicesPage: React.FC = (): JSX.Element => {
 
   return (
     <div className="">
-      <PageHeader title="Services" description="Our services" tag="services" img={logistic} />
+      <PageHeader title="Xizmatlar" description="Bizning Xizmatlarimiz" tag="services" img={logistic} />
 
       <Services />
     </div>

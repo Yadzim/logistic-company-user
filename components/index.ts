@@ -1,4 +1,5 @@
 import EmblaCarousel from "./Carusel";
+import Comments from "./Comments";
 import Contact from "./Contact";
 import Features from "./Features";
 import Footer from "./Footer";
@@ -7,4 +8,14 @@ import Navbar from "./Navbar";
 import PageHeader from "./PageHeader";
 import Services from "./Services";
 
-export { Header, Footer, Services, Features, Navbar, Contact, EmblaCarousel, PageHeader };
+export {
+  Header,
+  Footer,
+  Services,
+  Features,
+  Navbar,
+  Contact,
+  EmblaCarousel,
+  PageHeader,
+  Comments,
+};

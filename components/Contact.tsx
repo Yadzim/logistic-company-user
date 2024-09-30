@@ -9,7 +9,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
         <div className="container mx-auto px-5 py-24">
 
           {isFull ? <div className="mb-12 flex w-full flex-col text-center">
-            <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Contact <span className="text-main">Us</span></h1>
+            <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Biz bilan <span className="text-main">bog'lanish</span></h1>
             <p className="mx-auto text-base leading-relaxed lg:w-2/3">Feel free to reach out to us! Whether you have a question,
               feedback, or a collaboration proposal, we`d love to hear from you.
             </p>
@@ -20,24 +20,24 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
 
               <div className="w-full md:w-1/2 p-2">
                 <div className="relative">
-                  <input type="text" id="name" name="name" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Full name" />
-                  <label htmlFor="name" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Full name</label>
+                  <input type="text" id="name" name="name" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Ism va Familya" />
+                  <label htmlFor="name" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Ism va Familya</label>
                 </div>
               </div>
               <div className="w-full md:w-1/2 p-2 max-md:mt-4">
                 <div className="relative">
-                  <input type="phone" id="phone" name="phone" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Phone" />
-                  <label htmlFor="phone" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Phone</label>
+                  <input type="phone" id="phone" name="phone" className="peer w-full rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Telefon raqami" />
+                  <label htmlFor="phone" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Telefon raqami</label>
                 </div>
               </div>
               <div className="mt-4 w-full p-2">
                 <div className="relative">
-                  <textarea id="message" name="message" className="peer h-32 w-full resize-none rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Message"></textarea>
-                  <label htmlFor="message" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Message</label>
+                  <textarea id="message" name="message" className="peer h-32 w-full resize-none rounded-md border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-main focus:bg-gray-900 focus:ring-2 focus:ring-main/40" placeholder="Xabar matni"></textarea>
+                  <label htmlFor="message" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-main transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900- peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-main">Xabar matni</label>
                 </div>
               </div>
-              <div className="w-full p-2">
-                <button className="max-md:w-full mx-auto flex-center rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none text-center">Button</button>
+              <div className="w-full p-2 flex-center">
+                <button className="max-md:w-full flex-center rounded-lg border-0 bg-main py-2 px-12 text-lg text-white hover:bg-main/90 focus:outline-none text-center">Jo'natish</button>
               </div>
 
 

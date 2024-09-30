@@ -11,7 +11,7 @@ const AboutPage: React.FC = (): JSX.Element => {
 
   return (
     <div className="min-h-[50vh]">
-      <PageHeader title='About Us' description='This is about page' tag='About' img={img} />
+      <PageHeader title='Biz haqimizda' description='Bizning kompaniya qanday' tag='About' img={img} />
 
       <div className="py-12">
         <div className="container grid md:grid-cols-2 gap-12 max-md:px-4">
@@ -19,12 +19,12 @@ const AboutPage: React.FC = (): JSX.Element => {
 
           <div className="">
 
-            <h6 className='text-main font-bold text-lg md:text-xl' >About Us</h6>
-            <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">We Are Trustedistics Company Since 1990</h2>
-            <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium in deleniti atque iusto dolore quo a vero officiis,
-              possimus, repellat laudantium eaque! Dolores error veritatis eligendi nostrum excepturi dignissimos nobis officiis maxime
-              optio praesentium fuga iste suscipit quibusdam, harum voluptatem eaque adipisci fugiat temporibus voluptate.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, assumenda at.</p>
+            <h6 className='text-main font-bold text-lg md:text-xl' >Biz haqimizda</h6>
+            <h2 className="text-2xl md:text-5xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2018- yildan buyon xizmat ko'rsatib kelmoqda</h2>
+            <p>&nbsp;&nbsp;&nbsp; EMAEXINTERNATIONAL LOGISTICS jamoasi 6 yil davomida, XITOY, ROSSIYA,
+              TURKIYA va O’ZBEKISTON bozorlarida faoliyat olib borib kelyabdi. Kompaniyamiz
+              asosiy ofisi XitoyXalq Respublikasi, Guanzhou shahrida joylashgan bo’lib, O’zbekistonlik
+              mijozlarimiz uchun Toshkent fillialida xizmat ko’rsatamiz.</p>
             <br />
             <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta voluptates labore eaque blanditiis
               commodi voluptatibus cupiditate ex debitis impedit tenetur dolorem odit animi doloribus mollitia, sapiente vitae, consequuntur
@@ -48,17 +48,17 @@ const AboutPage: React.FC = (): JSX.Element => {
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
             <h3 className="text-main text-5xl font-bold mb-3" >534</h3>
-            <p className='text-lg font-semibold' >Projects Done</p>
+            <p className='text-lg font-semibold' >Muvaffaqiyatli loyihalar</p>
           </div>
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
             <h3 className="text-main text-5xl font-bold mb-3" >54</h3>
-            <p className='text-lg font-semibold' >Team Members</p>
+            <p className='text-lg font-semibold' >Jamoa a'zolari</p>
           </div>
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
             <h3 className="text-main text-5xl font-bold mb-3" >1435</h3>
-            <p className='text-lg font-semibold' >Worldwide Clients</p>
+            <p className='text-lg font-semibold' >Dunyo bo'ylab xaridorlar</p>
           </div>
 
         </div>
