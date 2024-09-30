@@ -8,24 +8,26 @@ import EModal from './Modal';
 
 
 const Comments: React.FC = (): JSX.Element => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLDivElement | null>(null);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const video: any = videoRef.current;
+    const video: any = videoRef?.current;
 
-    if (video && open) {
-      try {
-        video.currentTime = 0;
-        video.play();
-      } catch (error) {
-        console.warn('Autoplay failed:', error);
-      }
-    } else {
-      try {
-        video.pause();
-      } catch (error) {
-        console.warn('Autoplay failed:', error);
+    if (video) {
+      if (open) {
+        try {
+          video.currentTime = 0;
+          video.play();
+        } catch (error) {
+          console.warn('Autoplay failed:', error);
+        }
+      } else {
+        try {
+          video.pause();
+        } catch (error) {
+          console.warn('Autoplay failed:', error);
+        }
       }
     }
   }, [open]);
