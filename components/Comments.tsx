@@ -1,15 +1,17 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from 'react';
-import image from "../assets/images/client-says3.svg";
+// import image from "../assets/images/client-says3.svg";
+import carusel_image from "../assets/images/carusel_image.png";
 import Image from "next/image";
 import EmblaCarousel from './Carusel';
 import EModal from './Modal';
 
 const Comments: React.FC = (): JSX.Element => {
   const videoRef = useRef<HTMLVideoElement | null>(null); // Specify the type here
+  // const _videoRef = useRef<HTMLVideoElement | null>(null); // Specify the type here
   const [open, setOpen] = useState(false);
-  const [thumbnail, setThumbnail] = useState('');
+  // const [thumbnail, setThumbnail] = useState('');
 
   useEffect(() => {
     const video = videoRef.current;
@@ -34,10 +36,10 @@ const Comments: React.FC = (): JSX.Element => {
 
   // useEffect(() => {
   //   captureThumbnail();
-  // }, [videoRef.current]);
+  // }, [_videoRef.current]);
 
   // const captureThumbnail = () => {
-  //   const video = videoRef.current;
+  //   const video = _videoRef.current;
   //   if (video) {
   //     const canvas = document.createElement('canvas');
   //     canvas.width = video.videoWidth;
@@ -55,7 +57,10 @@ const Comments: React.FC = (): JSX.Element => {
           <i className="fas fa-play text-5xl text-main/90 ms-2"></i>
         </div>
       </div>
-      <Image src={thumbnail || image} alt="client-says" width={200} height={200} className="mx-auto" />
+      <figure className="w-full h-[340px] flex-center overflow-hidden mb-2 img-box- rounded-md">
+        <Image src={carusel_image} alt='' width={460} height={340} className='min-w-full min-h-full bg-gray-100 object-cover rounded' />
+      </figure>
+      {/* <Image src={carusel_image} alt="client-says" width={200} height={200} className="mx-auto w-full" /> */}
       <div className="flex-between gap-4 mt-4">
         <div className="d-f gap-3">
           <i className="fa fa-user-circle text-5xl opacity-30"></i>
