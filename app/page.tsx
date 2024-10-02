@@ -1,4 +1,4 @@
-import { Comments, Contact, Features, Services } from "@/components";
+import { Comments, Contact, Features, Services, Warehouses } from "@/components";
 import Link from "next/link";
 
 
@@ -33,23 +33,25 @@ export default function Home() {
             {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
             <i className="far fa-clock text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
-              <span className="max-md:text-sm text-info" >Yakshanba Yopiq</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">Du - Sha 8.00 - 18.00</p>
+              <span className="max-md:text-sm text-info" ></span>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Ish vaqti 24/7</p>
             </div>
           </div>
           <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]- animate__animated animate__fadeInBottomRight">
             {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
             <i className="fa fa-map-marked-alt text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
-              <span className="max-md:text-sm text-info" >Columbia, SC 29201</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">USA, New York - 10620</p>
+              <span className="max-md:text-sm text-info" >Toshkent</span>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Uzbekistan, Tashkent</p>
             </div>
           </div>
 
         </div>
       </div>
 
-      <Services count={3} />
+      <Services count={4} />
+
+      <Warehouses />
 
       <Features />
 
@@ -58,8 +60,8 @@ export default function Home() {
       <div className="bg-[#F4F4F4]-">
         <div className="container py-8 md:py-24 ">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold"><span className="text-main">Klientlarimiz</span> fikri</h2>
-            <p className="text-lg md:text-2xl text-info mt-2">klientlarimiz biz haqimizda qanday fikirda?</p>
+            <h2 className="text-3xl md:text-4xl font-bold"><span className="text-main">Mijozlarimiz</span> fikri</h2>
+            <p className="text-lg md:text-2xl text-info mt-2">Mijozlarimiz biz haqimizda qanday fikirda?</p>
           </div>
 
           <Comments />

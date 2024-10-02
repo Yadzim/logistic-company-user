@@ -8,7 +8,7 @@ const ContactPage: React.FC = (): JSX.Element => {
 
   return (
     <div className="bg-blue">
-      <PageHeader title="Biz bilan bog’lanish" description='We use an agile approach to test assumptions and connect with the needs of your audience early and often.' tag='Contact' img={img} />
+      <PageHeader title="Biz bilan bog’lanish" description="Biz bilan bog'laning! Savolingiz, fikr-mulohazalaringiz yoki hamkorlik taklifingiz bo'ladimi, biz sizdan xursand bo'lamiz." tag='Contact' img={img} />
 
       <div className="py-12 max-md:px-4">
         <div className="container grid md:grid-cols-2 gap-12">

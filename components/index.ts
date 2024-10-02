@@ -7,6 +7,7 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 import PageHeader from "./PageHeader";
 import Services from "./Services";
+import Warehouses from "./Warehouses";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   EmblaCarousel,
   PageHeader,
   Comments,
+  Warehouses,
 };

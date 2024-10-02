@@ -9,6 +9,7 @@ import EModal from './Modal';
 const Comments: React.FC = (): JSX.Element => {
   const videoRef = useRef<HTMLVideoElement | null>(null); // Specify the type here
   const [open, setOpen] = useState(false);
+  const [thumbnail, setThumbnail] = useState('');
 
   useEffect(() => {
     const video = videoRef.current;
@@ -31,6 +32,22 @@ const Comments: React.FC = (): JSX.Element => {
     }
   }, [open]);
 
+  // useEffect(() => {
+  //   captureThumbnail();
+  // }, [videoRef.current]);
+
+  // const captureThumbnail = () => {
+  //   const video = videoRef.current;
+  //   if (video) {
+  //     const canvas = document.createElement('canvas');
+  //     canvas.width = video.videoWidth;
+  //     canvas.height = video.videoHeight;
+  //     const context = canvas.getContext('2d');
+  //     context?.drawImage(video, 0, 0, canvas.width, canvas.height);
+  //     setThumbnail(canvas.toDataURL('image/jpeg')); // Yoki boshqa format
+  //   }
+  // }
+
   const SLIDE_ELEMENT = (
     <div className="client-says-card relative card bg-white rounded-xl p-4 shadow-md my-10">
       <div className="client-says-play absolute top-0 left-0 flex-center w-full h-full bg-gray-600/40 rounded-xl overflow-hidden cursor-pointer" onClick={() => setOpen(true)}>
@@ -38,7 +55,7 @@ const Comments: React.FC = (): JSX.Element => {
           <i className="fas fa-play text-5xl text-main/90 ms-2"></i>
         </div>
       </div>
-      <Image src={image} alt="client-says" width={200} height={200} className="mx-auto" />
+      <Image src={thumbnail || image} alt="client-says" width={200} height={200} className="mx-auto" />
       <div className="flex-between gap-4 mt-4">
         <div className="d-f gap-3">
           <i className="fa fa-user-circle text-5xl opacity-30"></i>

@@ -39,7 +39,7 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
         <p className="text-lg md:text-2xl text-info mt-2"> Biz qanday turdagi xizmatlarni sizga tavsiya eta olamiz?</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 mt-12 max-md:px-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-12 mt-12 max-md:px-3">
 
         {
           services.slice(0, count === "all" ? services.length : count).map((e, i) => (
