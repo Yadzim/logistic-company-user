@@ -14,14 +14,15 @@ const AboutPage: React.FC = (): JSX.Element => {
       <PageHeader title='Biz haqimizda' description='Bizning kompaniya qanday' tag='About' img={img} />
 
       <div className="py-12">
-        <div className="container grid md:grid-cols-2 gap-12 max-md:px-4">
-          <Image src={logistic} alt="image" width={600} height={600} />
+        {/* <div className="container grid md:grid-cols-2 gap-12 max-md:px-4"> */}
+        <div className="container d-f max-md:flex-wrap gap-12 max-md:px-4">
+          <Image src={logistic} alt="image" width={600} height={600} className='md:w-1/2' />
 
-          <div className="">
+          <div className="md:w-1/2">
 
             <h6 className='text-main font-bold text-lg md:text-xl' >Biz haqimizda</h6>
             <h2 className="text-2xl md:text-4xl font-bold mb-12 mt-3">EMAEXINTERNATIONAL LOGISTICS jamoamiz 2017- yildan buyon xizmat ko’rsatib kelmoqda</h2>
-            <p>&nbsp;&nbsp;&nbsp; EMAEXINTERNATIONAL LOGISTICS jamoasi 6 yil davomida, XITOY, ROSSIYA,
+            <p>&nbsp;&nbsp;&nbsp; EMAEXINTERNATIONAL LOGISTICS jamoasi 7 yil davomida, XITOY, ROSSIYA,
               TURKIYA va O’ZBEKISTON bozorlarida faoliyat olib borib kelyabdi. Kompaniyamiz
               asosiy ofisi XitoyXalq Respublikasi, Guanzhou shahrida joylashgan bo’lib, O’zbekistonlik
               mijozlarimiz uchun Toshkent fillialida xizmat ko’rsatamiz.</p>

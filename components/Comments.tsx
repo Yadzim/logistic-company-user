@@ -51,7 +51,7 @@ const Comments: React.FC = (): JSX.Element => {
   // }
 
   const SLIDE_ELEMENT = (
-    <div className="client-says-card relative card bg-white rounded-xl p-2 md:p-4 shadow-md my-10">
+    <div className="client-says-card relative card bg-white rounded-xl max-md:p-2 shadow-md my-10">
       <div className="client-says-play absolute top-0 left-0 flex-center w-full h-full bg-gray-600/40 rounded-xl overflow-hidden cursor-pointer" onClick={() => setOpen(true)}>
         <div className="p-4 rounded-full bg-white">
           <i className="fas fa-play text-5xl text-main/90 ms-2"></i>
@@ -59,6 +59,9 @@ const Comments: React.FC = (): JSX.Element => {
       </div>
       <figure className="w-full h-[340px] flex-center overflow-hidden mb-2 img-box- rounded-md">
         <Image src={carusel_image} alt='' width={460} height={340} className='min-w-full min-h-full bg-gray-100 object-cover rounded' />
+        <div className="client-says-image-play absolute shadow-xl rounded-full bg-white p-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+          <i className="fas fa-play text-4xl text-black/70 ms-2"></i>
+        </div>
       </figure>
       {/* <Image src={carusel_image} alt="client-says" width={200} height={200} className="mx-auto w-full" /> */}
       <div className="flex-between gap-4 mt-4">

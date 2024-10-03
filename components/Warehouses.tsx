@@ -18,7 +18,7 @@ const Warehouses: React.FC = (): JSX.Element => {
             </div>
 
 
-            <div className="flex flex-col gap-4">
+            {/* <div className="flex flex-col gap-4">
               <div className="d-f gap-8 text-xl md:text-2xl">
                 <i className="fas fa-map-marker-alt text-5xl opacity-50"></i>
                 <div className="">
@@ -47,8 +47,47 @@ const Warehouses: React.FC = (): JSX.Element => {
                   <p className='text-info text-sm md:text-lg' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
                 </div>
               </div>
+            </div> */}
+
+            <div className="grid grid-cols-2 gap-12">
+
+              <div className="d-f gap-3 flex-col-">
+                <div className="p-3 px-4 rounded-xl bg-main/10 text-main ">
+                  <i className="fas fa-map-marker-alt text-2xl opacity-80"></i>
+                </div>
+                <div className="">
+                  <h4 className='text-2xl font-semibold'>Guanzhou</h4>
+                </div>
+              </div>
+              <div className="d-f gap-3 flex-col-">
+                <div className="p-3 px-4 rounded-xl bg-main/10 text-main ">
+                  <i className="fas fa-map-marker-alt text-2xl opacity-80"></i>
+                </div>
+                <div className="">
+                  <h4 className='text-2xl font-semibold'>Yiwu</h4>
+                </div>
+              </div>
+              <div className="d-f gap-3 flex-col-">
+                <div className="p-3 px-4 rounded-xl bg-main/10 text-main ">
+                  <i className="fas fa-map-marker-alt text-2xl opacity-80"></i>
+                </div>
+                <div className="">
+                  <h4 className='text-2xl font-semibold'>Shengzhen</h4>
+                </div>
+              </div>
+              <div className="d-f gap-3 flex-col-">
+                <div className="p-3 px-4 rounded-xl bg-main/10 text-main ">
+                  <i className="fas fa-map-marker-alt text-2xl opacity-80"></i>
+                </div>
+                <div className="">
+                  <h4 className='text-2xl font-semibold'>Urumqi</h4>
+                </div>
+              </div>
+
             </div>
+
           </div>
+
 
         </div>
       </div>
