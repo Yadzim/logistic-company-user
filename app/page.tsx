@@ -33,16 +33,16 @@ export default function Home() {
             {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
             <i className="far fa-clock text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
-              <span className="max-md:text-sm text-info" ></span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">Ish vaqti 24/7</p>
+              <span className="max-md:text-sm text-info" >Ish vaqti</span>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Dushanba - yakshanba</p>
             </div>
           </div>
           <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]- animate__animated animate__fadeInBottomRight">
             {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
             <i className="fa fa-map-marked-alt text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
-              <span className="max-md:text-sm text-info" >Toshkent</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">Uzbekistan, Tashkent</p>
+              <span className="max-md:text-sm text-info" >Uzbekistan, Toshkent</span>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Elbek koʻchasi, 5A</p>
             </div>
           </div>
 
