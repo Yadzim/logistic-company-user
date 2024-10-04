@@ -4,6 +4,8 @@ import { Footer, Navbar } from "@/components";
 import 'animate.css';
 import "./globals.css";
 import "@/components/style.css";
+import Providers from "@/config/react_query/providers";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = localFont({
   src: "../assets/fonts/GeistVF.woff",
@@ -41,9 +43,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <Header /> */}
-        <Navbar />
-        {children}
-        <Footer />
+        <Providers>
+          <Navbar />
+          {children}
+          <Footer />
+          <Toaster />
+        </Providers>
       </body>
     </html>
   );
