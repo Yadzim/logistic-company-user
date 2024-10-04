@@ -56,7 +56,7 @@ const Comments: React.FC = (): JSX.Element => {
     url: "comments",
   })
 
-  const comments: any[] = data?.comments || []
+  const comments: Record<string, string>[] = data?.comments || []
 
   const OPTIONS = { loop: true };
   const SLIDES = comments.map((e, i) => <div key={i} className="client-says-card relative card bg-white rounded-xl max-md:p-2 shadow-md my-10">
