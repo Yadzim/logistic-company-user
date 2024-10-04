@@ -12,7 +12,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
   const { ref, getFieldsValue, resetFields } = useForm();
 
   const { mutate, isPending } = useMutation({
-    mutationFn: async (data: any) => {
+    mutationFn: async (data: Record<string, string>) => {
       const res = await instance({
         url: '/messages',
         method: 'POST',
@@ -24,7 +24,7 @@ const Contact: React.FC<{ isFull?: boolean }> = ({ isFull = true }): JSX.Element
       toast.success(res?.message);
       resetFields();
     },
-    onError: (error: AxiosError<any>) => {
+    onError: (error: AxiosError<Record<string, string>>) => {
       toast.error(error?.response?.data?.message ?? "Ma'lumot jo'natishda xatolik yuz berdi");
     },
     retry: 0,

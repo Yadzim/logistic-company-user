@@ -14,7 +14,7 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
     url: "services",
   })
 
-  const services: any[] = data?.services || []
+  const services: Record<string, any>[] = data?.services || []
 
   return (
     <div className="container py-8 md:py-24">
