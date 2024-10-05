@@ -18,7 +18,7 @@ const Features: React.FC = (): JSX.Element => {
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300- flex-center"><i className="fa fa-globe opacity-50 text-4xl md:text-5xl"></i></div>
             <div className="text-lg">
               <p className="font-bold mb-2">Dunyo bo’ylab xizmatlar</p>
-              <span className="text-info max-md:text-sm" >Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</span>
+              <span className="text-info max-md:text-sm" >Dunyoning turli xil nuqtalaridan sizga zarur bo'lgan logistika xizmatlarini tez va qulay tarzda taqdim etamiz</span>
             </div>
           </div>
 
@@ -26,15 +26,15 @@ const Features: React.FC = (): JSX.Element => {
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300- flex-center"><i className="fa fa-stopwatch opacity-50 text-4xl md:text-5xl"></i></div>
             <div className="text-lg ">
               <p className="font-bold mb-2">Vaqtida Yetkazib Berish</p>
-              <span className="text-info max-md:text-sm" >Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</span>
+              <span className="text-info max-md:text-sm" >Buyurtmalaringizni hech qanday zararlanishsiz, o'z vaqtida yetkazib berishni zimmamizga olamiz.</span>
             </div>
           </div>
 
           <div className="grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr] gap-4 md:gap-6 animate__animated animate__fadeInLeft">
             <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-300- flex-center"><i className="fa fa-headset opacity-50 text-4xl md:text-5xl"></i></div>
             <div className="text-lg ">
-              <p className="font-bold mb-2">24/7 aloqa</p>
-              <span className="text-info max-md:text-sm" >Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</span>
+              <p className="font-bold mb-2">24/7 Aloqa</p>
+              <span className="text-info max-md:text-sm" >Biz bilan kunning istalgan vaqtida bog'lanib, istalgan savollaringizga javob olishingiz mumkin.</span>
             </div>
           </div>
 
