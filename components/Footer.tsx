@@ -58,16 +58,16 @@ const Footer: React.FC = (): JSX.Element => {
             <div className="md:me-6 col-span-2">
               <div className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 {/* <h1 className="text-3xl font-signature text-main uppercase"><i className="fa fa-shipping-fast"></i> logistic</h1> */}
-                <Image src={logo} alt="logo" width={160} height={50} />
+                <Image src={logo} alt="ema" width={160} height={50} />
                 {/* <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
 
                 </span> */}
                 {/* TW Elements */}
               </div>
-              <p>
+              <h2>
                 Yuklaringizni Xitoydan O’zbekistonga tez va hech qanday zararlanishsiz yetkazib
                 beramiz!
-              </p>
+              </h2>
             </div>
 
             <div className='col-span-1 md:col-span-2'>

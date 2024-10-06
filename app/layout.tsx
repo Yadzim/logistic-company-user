@@ -20,7 +20,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "EMA logistics",
-  description: "EMAEXINTERNATIONAL LOGISTICS jamoasi 2017- yildan buyon XITOY, ROSSIYA, TURKIYA va O’ZBEKISTON bozorlarida faoliyat olib borib kelyabdi. Kompaniyamiz asosiy ofisi XitoyXalq Respublikasi, Guanzhou shahrida joylashgan bo’lib, O’zbekistonlik mijozlarimiz uchun Toshkent fillialida xizmat ko’rsatamiz.",
+  description: "Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door",
 };
 
 export default function RootLayout({
