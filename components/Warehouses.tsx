@@ -14,7 +14,7 @@ const Warehouses: React.FC = (): JSX.Element => {
 
             <div className="max-md:text-center">
               <h6 className='text-main font-bold text-lg md:text-2xl' >Bizning omborlarimiz</h6>
-              <h2 className="text-2xl md:text-4xl font-bold mb-12 mt-3">Hozirgi vaqtda dunyoning turli nuqtalarida ko’plab omborlarimiz mavjud</h2>
+              <h2 className="text-2xl md:text-4xl font-bold mb-12 mt-3">Hozirgi vaqtda Xitoyning turli nuqtalarida ko’plab omborlarimiz mavjud</h2>
             </div>
 
 
@@ -49,7 +49,7 @@ const Warehouses: React.FC = (): JSX.Element => {
               </div>
             </div> */}
 
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-2 gap-12 mt-4">
 
               <div className="d-f gap-3 flex-col-">
                 <div className="p-3 px-4 rounded-xl bg-main/10 text-main ">

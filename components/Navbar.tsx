@@ -63,8 +63,8 @@ const Navbar: React.FC = (): JSX.Element => {
         <div className="hidden md:block top py-2 px-12 border-b border-info">
           <div className="container flex-between text-info">
             <div className="d-f gap-12">
-              <p>Tel: +998 91 132 68 18</p>
-              <p>Email: emalogistic@gmail.com</p>
+              <p>Tel: +998 (88) 766 60 77</p>
+              <p>Email: emalogistics@gmail.com</p>
             </div>
             <div className="flex-center gap-6">
               <a target='_blank' href="https://facebook.com/Ema_logistics_uz" className="[&>svg]:h-4 [&>svg]:w-4">

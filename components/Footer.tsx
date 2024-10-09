@@ -118,7 +118,7 @@ const Footer: React.FC = (): JSX.Element => {
                       d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                   </svg>
                 </span>
-                Elbek koʻchasi, 5A, Toshkent
+                Arkbuloq savdo markazi, B2/3
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -132,7 +132,7 @@ const Footer: React.FC = (): JSX.Element => {
                       d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                   </svg>
                 </span>
-                emalogistic@gmail.com
+                emalogistics@gmail.com
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -146,7 +146,7 @@ const Footer: React.FC = (): JSX.Element => {
                       clip-rule="evenodd" />
                   </svg>
                 </span>
-                +998 91 132 68 18
+                +998 (88) 766 60 77
               </p>
             </div>
 

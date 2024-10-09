@@ -26,7 +26,7 @@ export default function Home() {
             <i className="fa fa-headset text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Istalgan vaqt bog’lanish</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">+998 (91) 132 68 18</p>
+              <p className="text-md md:text-2xl font-bold md:mt-2">+998 (88) 766 60 77</p>
             </div>
           </div>
           <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)] animate__animated animate__fadeInUp">
@@ -34,15 +34,15 @@ export default function Home() {
             <i className="far fa-clock text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Ish vaqti</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">Dushanba - yakshanba</p>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Dushanba - Yakshanba</p>
             </div>
           </div>
           <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)]- animate__animated animate__fadeInBottomRight">
             {/* <div className="w-10 h-10 md:w-20 md:h-20  rounded-full bg-gray-400"></div> */}
             <i className="fa fa-map-marked-alt text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
-              <span className="max-md:text-sm text-info" >Uzbekistan, Toshkent</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">Elbek koʻchasi, 5A</p>
+              <span className="max-md:text-sm text-info" >Uzbekistan, Tashkent</span>
+              <p className="text-md md:text-2xl font-bold md:mt-2">Arkbuloq savdo markazi, B2/3</p>
             </div>
           </div>
 

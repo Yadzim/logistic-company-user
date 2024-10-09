@@ -19,7 +19,7 @@ const ContactPage: React.FC = (): JSX.Element => {
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Elektron pochta manzilimiz:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
-                <p className="text-main underline mt-3"><a href="mailto:2nKZd@example.com">emalogistic@gmail.com</a></p>
+                <p className="text-main underline mt-3"><a href="mailto:emalogistics@gmail.com">emalogistics@gmail.com</a></p>
               </div>
             </div>
 
@@ -28,7 +28,7 @@ const ContactPage: React.FC = (): JSX.Element => {
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Telefon raqamimiz:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
-                <p className="text-main underline mt-3"><a href='tel:+998911326818'>+998 91 132 68 18</a></p>
+                <p className="text-main underline mt-3"><a href='tel:+998887666077'>+998 (88) 766 60 77</a></p>
               </div>
             </div>
 
@@ -44,7 +44,7 @@ const ContactPage: React.FC = (): JSX.Element => {
               <div className="w-20 h-20 rounded-2xl bg-[#1F2937] flex-center"><i className="fa fa-building text-4xl opacity-50"></i></div>
               <div className="text-lg">
                 <h6 className="font-bold text-lg mb-2">Kompaniya ma’lumotlari:</h6>
-                <span className="text-info text-sm" >Elbek koʻchasi, 5A, Toshkent</span>
+                <span className="text-info text-sm" >Arkbuloq savdo markazi, B2/3, Toshkent</span>
               </div>
             </div>
 
