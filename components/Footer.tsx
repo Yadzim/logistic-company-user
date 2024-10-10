@@ -67,6 +67,7 @@ const Footer: React.FC = (): JSX.Element => {
               <h2>
                 Yuklaringizni Xitoydan O’zbekistonga tez va xavfsiz yetkazib beramiz!
               </h2>
+
             </div>
 
             <div className='col-span-1 md:col-span-2'>
