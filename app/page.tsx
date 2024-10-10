@@ -11,8 +11,7 @@ export default function Home() {
           {/* <h1 className="md:text-[5rem] text-5xl font-bold">Yuklaringizni Xitoydan O’zbekistonga <span className="text-main"> tez va hech qanday zararlanishsiz </span> yetkazibberamiz!</h1> */}
           <h1 className="md:text-[5rem] text-5xl font-bold"><span className="text-main">Tez va Xavfsiz </span> logistika xizmati</h1>
           <p className="py-6 text-lg">
-            Yuklaringizni Xitoydan O’zbekistonga tez va hech qanday zararlanishsiz yetkazib
-            beramiz!
+            Yuklaringizni Xitoydan O’zbekistonga tez va xavfsiz yetkazib beramiz!
           </p>
           <Link href="/contact"><button className="py-3 px-12 rounded-full border border-main text-main hover:text-white hover:bg-main transition-colors">Biz bilan bog’lanish</button></Link>
         </div>

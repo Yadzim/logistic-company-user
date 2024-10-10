@@ -65,8 +65,7 @@ const Footer: React.FC = (): JSX.Element => {
                 {/* TW Elements */}
               </div>
               <h2>
-                Yuklaringizni Xitoydan O’zbekistonga tez va hech qanday zararlanishsiz yetkazib
-                beramiz!
+                Yuklaringizni Xitoydan O’zbekistonga tez va xavfsiz yetkazib beramiz!
               </h2>
             </div>
 

@@ -78,7 +78,9 @@ const ContactPage: React.FC = (): JSX.Element => {
           </div>
           {/* <iframe src="https://yandex.uz/map-widget/v1/?ll=69.229258%2C41.348305&mode=search&oid=190141523653&ol=biz&z=18.48" className='w-full h-full min-h-96 rounded-xl'></iframe> */}
           {/* <iframe src="https://yandex.uz/map-widget/v1/?ll=69.293364%2C41.298809&mode=search&sll=69.293370%2C41.298800&tab=inside&text=41.298800%2C69.293370&z=17.05" className='w-full h-full min-h-96 rounded-xl'></iframe> */}
-          <iframe src="https://yandex.uz/map-widget/v1/?from=mapframe&ll=69.293726%2C41.298629&mode=whatshere&source=mapframe&utm_source=mapframe&whatshere%5Bpoint%5D=69.293245%2C41.298985&whatshere%5Bzoom%5D=17&z=19.99" className='w-full h-full min-h-96 rounded-xl'></iframe>
+          <iframe src="https://yandex.uz/map-widget/v1/?ll=69.156889%2C41.229399&mode=poi&poi%5Bpoint%5D=69.153993%2C41.230848&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D126174231234&z=17.04" className='w-full h-full min-h-96 rounded-xl'></iframe>
+
+
         </div>
       </div>
 

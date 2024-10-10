@@ -43,12 +43,12 @@ const AboutPage: React.FC = (): JSX.Element => {
         <div className="container grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-6 md:gap-24 text-white">
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
-            <h3 className="text-main text-5xl font-bold mb-3" >123</h3>
+            <h3 className="text-main text-5xl font-bold mb-3" >100+</h3>
             <p className='text-lg font-semibold' >Mijozlarimiz soni</p>
           </div>
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
-            <h3 className="text-main text-5xl font-bold mb-3" >534</h3>
+            <h3 className="text-main text-5xl font-bold mb-3" >500+</h3>
             <p className='text-lg font-semibold' >Muvaffaqiyatli loyihalar</p>
           </div>
 
@@ -58,7 +58,7 @@ const AboutPage: React.FC = (): JSX.Element => {
           </div>
 
           <div className="text-center py-2 px-4 rounded-xl backdrop-blur-lg">
-            <h3 className="text-main text-5xl font-bold mb-3" >1435</h3>
+            <h3 className="text-main text-5xl font-bold mb-3" >1000+</h3>
             <p className='text-lg font-semibold' >Dunyo bo’ylab xaridorlar</p>
           </div>
 
