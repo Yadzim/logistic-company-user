@@ -4,10 +4,13 @@ import React from 'react';
 import Image from 'next/image';
 import { useGetAllData } from '@/hooks';
 import { FILE_URL } from '@/config/constants';
+import EModal from './Modal';
 import "./style.css";
 
 
 const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element => {
+  const [open, setOpen] = React.useState<string>("")
+  const videoRef = React.useRef<HTMLVideoElement>(null)
 
   const { data } = useGetAllData({
     queryKey: ["services"],
@@ -28,18 +31,26 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
         {
           services.slice(0, count === "all" ? services.length : count).map((e, i) => (
             <div className="card max-md:p-2 animate__animated animate__fadeInUp flex justify-between flex-col gap-4" key={i}>
-              <div className="">
-                <figure className="w-full h-[160px] flex-center overflow-hidden mb-2 img-box rounded-md">
-                  <Image src={FILE_URL + e?.image} alt='' width={285} height={163} className='min-w-full min-h-full bg-gray-100 object-cover rounded' />
-                </figure>
+              <div>
+                <div className="client-says-card relative">
+                  <div className="client-says-play absolute top-0 left-0 z-10 flex-center w-full h-full bg-gray-600/40 rounded-xl overflow-hidden cursor-pointer" onClick={() => setOpen(e?.image)}>
+                    <div className="p-4 rounded-full bg-white">
+                      <i className="fas fa-play text-5xl text-main/90 ms-2"></i>
+                    </div>
+                  </div>
+                  <figure className="w-full h-[200px] flex-center overflow-hidden mb-2 img-box rounded-md">
+                    <Image src={FILE_URL + e?.image} alt='' width={285} height={205} className='min-w-full min-h-full bg-gray-100 object-cover rounded' />
+                  </figure>
+                </div>
                 {/* <figure><Image className='rounded w-full' src={images[i]} alt="Shoes" width={400} height={400} /></figure> */}
                 <div className="flex flex-col gap-4 mt-6">
                   <h2 className="text-xl font-bold ">{e?.name}</h2>
                   <p className='text-info'>{e?.description || "If a dog chews shoes whose shoes does he choose? Lorem, ipsum dolor sit amet consectetur adipisicing elit."}</p>
                   {/* <div className="card-actions-">
                   <button className="py-1 px-4 rounded-r-full bg-main text-white transition-transform w-max hover:w-36"><i className="fa fa-arrow-right" />&nbsp; Lore More</button>
-                </div> */}
+                  </div> */}
                 </div>
+
               </div>
               <div className="card-actions-">
                 <button className="py-1 px-4 rounded-r-full bg-main text-white transition-transform w-max">Xizmatlar</button>
@@ -47,8 +58,28 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
             </div>
           ))
         }
-
       </div>
+
+      <EModal
+        header="Mijozlarimiz fikri"
+        open={!!open}
+        onClose={() => setOpen("")}
+        width={640}
+        center
+      >
+        <video
+          width="640"
+          height="360"
+          controls
+          className="client-video"
+          autoPlay
+          loop
+          ref={videoRef}
+          src={FILE_URL + open}
+        >
+          Your browser does not support the video tag.
+        </video>
+      </EModal>
     </div>
   );
 };
