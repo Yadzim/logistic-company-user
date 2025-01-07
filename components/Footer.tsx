@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { links } from './Navbar';
 import Image from 'next/image';
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.svg";
 
 const Footer: React.FC = (): JSX.Element => {
 

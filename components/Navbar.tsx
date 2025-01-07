@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.svg";
 
 export const links = [
   {
