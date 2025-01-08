@@ -33,7 +33,7 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
             <div className="card max-md:p-2 animate__animated animate__fadeInUp flex justify-between flex-col gap-4" key={i}>
               <div>
                 <div className="client-says-card relative">
-                  <div className="client-says-play absolute top-0 left-0 z-10 flex-center w-full h-full bg-gray-600/40 rounded-xl overflow-hidden cursor-pointer" onClick={() => setOpen(e?.image)}>
+                  <div className="client-says-play absolute top-0 left-0 z-10 flex-center w-full h-full bg-gray-600/40 rounded-xl overflow-hidden cursor-pointer" onClick={() => setOpen(e?.video)}>
                     <div className="p-4 rounded-full bg-white">
                       <i className="fas fa-play text-5xl text-main/90 ms-2"></i>
                     </div>
