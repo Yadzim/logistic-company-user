@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo3.png";
 
 export const links = [
   {
@@ -94,7 +94,7 @@ const Navbar: React.FC = (): JSX.Element => {
         <div className="main px-4 md:px-12 py-3 md:py-6">
           <div className="container flex-between">
             {/* <Link href="/"><h1 className="md:text-4xl text-3xl font-bold text-main uppercase"><i className="fa fa-shipping-fast"></i> lst</h1></Link> */}
-            <Link href="/"><Image src={logo} alt="logo" width={40} height={40} /></Link>
+            <Link href="/"><Image src={logo} alt="logo" width={120} height={40} /></Link>
             <div className="max-md:hidden d-f gap-12">
               <ul className="d-f gap-12 text-white">
                 {

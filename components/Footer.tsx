@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { links } from './Navbar';
 import Image from 'next/image';
-import logo from "../assets/images/logo2.png";
+import logo from "../assets/images/logo3.png";
 
 const Footer: React.FC = (): JSX.Element => {
 
@@ -58,7 +58,7 @@ const Footer: React.FC = (): JSX.Element => {
             <div className="md:me-6 col-span-2">
               <div className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 {/* <h1 className="text-3xl font-signature text-main uppercase"><i className="fa fa-shipping-fast"></i> logistic</h1> */}
-                <Image src={logo} alt="ema" width={80} height={80} />
+                <Image src={logo} alt="ema" width={200} height={80} />
                 {/* <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
 
                 </span> */}
