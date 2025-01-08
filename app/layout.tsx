@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="# 000000" />
-        <link rel="icon" href="./logo.svg" />
+        <link rel="icon" href="./favicon.ico" />
 
         <title>EMA Logistics</title>
         <meta name="title" content="EMA Logistics" />
@@ -53,7 +53,7 @@ export default function RootLayout({
         <meta property="og:url" content="http://emalogistics.uz" />
         <meta property="og:title" content="EMA Logistics" />
         <meta property="og:description" content="EMA Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door" />
-        <meta property="og:image" content="/logo.svg" />
+        <meta property="og:image" content="/logo3.png" />
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
