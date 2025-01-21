@@ -19,15 +19,15 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "EMA Logistics",
-  description: "EMA Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door",
+  title: "Emax-B Logistics",
+  description: "Emax-B Logistics servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door",
   openGraph: {
-    title: 'EMA Logistika',
-    description: "EMA Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door",
+    title: 'Emax-B Logistics',
+    description: "Emax-B Logistics servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door",
     type: 'website',
     locale: 'uz_UZ',
-    url: 'https://emalogistics.uz',
-    siteName: 'EMA Logistics',
+    url: 'https://emaxb.uz',
+    siteName: 'Emax-B Logistics',
   },
 };
 
@@ -45,14 +45,14 @@ export default function RootLayout({
         <meta name="theme-color" content="# 000000" />
         <link rel="icon" href="./favicon.ico" />
 
-        <title>EMA Logistics</title>
-        <meta name="title" content="EMA Logistics" />
-        <meta name="description" content="EMA Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door" />
+        <title>Emax-B Logistics</title>
+        <meta name="title" content="Emax-B Logistics" />
+        <meta name="description" content="Emax-B Logistics servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://emalogistics.uz" />
-        <meta property="og:title" content="EMA Logistics" />
-        <meta property="og:description" content="EMA Logistika servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door" />
+        <meta property="og:title" content="Emax-B Logistics" />
+        <meta property="og:description" content="Emax-B Logistics servisida 7 yillik tajriba Xitoydan O'zbekistonga: Avto, Avia, Temiryo'l kargosi. Xitoyning naqd 5 ta shahrida omborlarimiz mavjud: Yivu Urumchi Guangzhou Shengjin Va eng asosiy qulaylik esa bojxona ishlari va door to door" />
         <meta property="og:image" content="/logo3.png" />
 
 
