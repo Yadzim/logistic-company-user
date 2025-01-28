@@ -19,7 +19,7 @@ const ContactPage: React.FC = (): JSX.Element => {
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Elektron pochta manzilimiz:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
-                <p className="text-main underline mt-3"><a href="mailto:emalogistics@gmail.com">emalogistics@gmail.com</a></p>
+                <p className="text-main underline mt-3"><a href="mailto:emaxb@gmail.com">emaxb@gmail.com</a></p>
               </div>
             </div>
 
@@ -28,7 +28,7 @@ const ContactPage: React.FC = (): JSX.Element => {
               <div className="text-lg">
                 <h6 className="font-bold text-xl mb-2">Telefon raqamimiz:</h6>
                 {/* <span className="text-info text-sm" >Email us for general queries, including marketing and partnership opportunities.</span> */}
-                <p className="text-main underline mt-3"><a href='tel:+998887666077'>+998 (88) 766 60 77</a></p>
+                <p className="text-main underline mt-3"><a href='tel:+998996622233'>+998 (99) 662 22 33</a></p>
               </div>
             </div>
 

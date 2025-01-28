@@ -9,7 +9,7 @@ const Features: React.FC = (): JSX.Element => {
       <div className="">
         <div className="max-md:text-center">
           <h6 className='text-main font-bold text-lg md:text-xl' >Bizning avzalliklar</h6>
-          <h2 className="text-2xl md:text-4xl font-bold mb-12 mt-3">EMAEX INTERNATIONAL LOGISTICS jamoamiz 2017- yildan buyon xizmat ko’rsatib kelmoqda</h2>
+          <h2 className="text-2xl md:text-4xl font-bold mb-12 mt-3">EMAX-B INTERNATIONAL LOGISTICS jamoamiz 2017- yildan buyon xizmat ko’rsatib kelmoqda</h2>
         </div>
 
         <div className="flex flex-col gap-6 md:gap-12">
