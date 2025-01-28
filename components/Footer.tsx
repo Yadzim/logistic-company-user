@@ -146,7 +146,7 @@ const Footer: React.FC = (): JSX.Element => {
                       clip-rule="evenodd" />
                   </svg>
                 </span>
-                +998 (88) 766 60 77
+                +998 (99) 662 22 33
               </p>
             </div>
 
