@@ -47,3 +47,14 @@
 .btn-slide:hover span {
   background: var(--main);
 }
+
+.service-modal .e-modal-content {
+  padding: 8px !important;
+}
+
+@media screen and (max-width: 640px) {
+  .service-modal {
+    max-width: 85% !important;
+    max-height: 85vh;
+  }
+}

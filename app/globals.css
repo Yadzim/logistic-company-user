@@ -70,7 +70,14 @@ body {
   }
 
   .client-video {
-    @apply w-full rounded-lg;
+    @apply max-w-full max-h-full rounded-lg;
+  }
+
+  @media screen and (max-width: 640px) {
+    /* .client-video {
+      width: 90%;
+      height: 90%;
+    } */
   }
 
   .client-says-card .client-says-play {

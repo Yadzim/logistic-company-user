@@ -46,7 +46,7 @@ const EModal: React.FC<TypeModalProps> = ({
 
   return (
     <div className={`e-modal-wrapper ${open ? "e-modal-wrapper-open" : "e-modal-wrapper-close"}`} ref={modalRef}>
-      <div className={`e-modal-bg ${open ? "e-modal-bg-open" : "e-modal-bg-close"}`}></div>
+      <div className={`e-modal-bg ${open ? "e-modal-bg-open" : "e-modal-bg-close"}`} onClick={onClose}></div>
       <div
         className={`e-modal shadow-xl overflow-auto max-h-screen ${open ? "e-modal-open" : "e-modal-close"} ${center ? "e-modal-center" : ""} ${className}`}
         style={{ ...style, width }}

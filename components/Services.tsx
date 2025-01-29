@@ -61,10 +61,13 @@ const Services: React.FC<{ count?: number | "all" }> = ({ count }): JSX.Element 
       </div>
 
       <EModal
-        header="Mijozlarimiz fikri"
+        // header="Bizning Xizmatlarimiz"
+        header={null}
         open={!!open}
+        footer={null}
         onClose={() => setOpen("")}
         width={640}
+        className='service-modal'
         center
       >
         <video
