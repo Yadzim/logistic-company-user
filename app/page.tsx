@@ -25,7 +25,7 @@ export default function Home() {
             <i className="fa fa-headset text-main/90 text-4xl md:text-5xl"></i>
             <div className="">
               <span className="max-md:text-sm text-info" >Istalgan vaqt bog’lanish</span>
-              <p className="text-md md:text-2xl font-bold md:mt-2">+998 (88) 766 60 77</p>
+              <p className="text-md md:text-2xl font-bold md:mt-2">+998 (99) 662 22 33</p>
             </div>
           </div>
           <div className="d-f max-md:flex-col gap-2 md:gap-8 max-md:w-[calc(100%/2-1rem)] animate__animated animate__fadeInUp">
